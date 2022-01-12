@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/usr/local/linux_c_programming/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -g -o CMakeFiles/linux_c_programming.dir/main.cpp.o -c /usr/local/linux_c_programming/main.cpp",
+  "file": "/usr/local/linux_c_programming/main.cpp"
+},
+{
+  "directory": "/usr/local/linux_c_programming/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -g -o CMakeFiles/2_who.dir/src/2_who.cpp.o -c /usr/local/linux_c_programming/src/2_who.cpp",
+  "file": "/usr/local/linux_c_programming/src/2_who.cpp"
+}
+]

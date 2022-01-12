@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-7 -g -rdynamic CMakeFiles/2_who.dir/src/2_who.cpp.o -o 2_who 
