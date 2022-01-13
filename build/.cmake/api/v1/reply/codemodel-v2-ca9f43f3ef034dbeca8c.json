@@ -43,8 +43,7 @@
 						25,
 						26,
 						27,
-						28,
-						29
+						28
 					]
 				}
 			],
@@ -87,20 +86,12 @@
 						25,
 						26,
 						27,
-						28,
-						29
+						28
 					]
 				}
 			],
 			"targets" : 
 			[
-				{
-					"directoryIndex" : 0,
-					"id" : "2_who::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-2_who-Debug-2a18ea94998d00ee215d.json",
-					"name" : "2_who",
-					"projectIndex" : 0
-				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Continuous::@6890427a1f51a3e7e1df",
@@ -299,9 +290,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "linux_c_programming::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-linux_c_programming-Debug-270b8b02a61116370eb2.json",
-					"name" : "linux_c_programming",
+					"id" : "lsl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl-Debug-c02277c6a88f72c24b0e.json",
+					"name" : "lsl",
 					"projectIndex" : 0
 				}
 			]

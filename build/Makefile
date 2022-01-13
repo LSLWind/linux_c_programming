@@ -511,37 +511,24 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named linux_c_programming
+# Target rules for targets named lsl
 
 # Build rule for target.
-linux_c_programming: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linux_c_programming
-.PHONY : linux_c_programming
+lsl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lsl
+.PHONY : lsl
 
 # fast build rule for target.
-linux_c_programming/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_c_programming.dir/build.make CMakeFiles/linux_c_programming.dir/build
-.PHONY : linux_c_programming/fast
-
-#=============================================================================
-# Target rules for targets named 2_who
-
-# Build rule for target.
-2_who: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2_who
-.PHONY : 2_who
-
-# fast build rule for target.
-2_who/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_who.dir/build.make CMakeFiles/2_who.dir/build
-.PHONY : 2_who/fast
+lsl/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/build
+.PHONY : lsl/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_c_programming.dir/build.make CMakeFiles/linux_c_programming.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -549,7 +536,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_c_programming.dir/build.make CMakeFiles/linux_c_programming.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -557,7 +544,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_c_programming.dir/build.make CMakeFiles/linux_c_programming.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/2_who.o: src/2_who.cpp.o
@@ -565,7 +552,7 @@ src/2_who.o: src/2_who.cpp.o
 
 # target to build an object file
 src/2_who.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_who.dir/build.make CMakeFiles/2_who.dir/src/2_who.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/src/2_who.cpp.o
 .PHONY : src/2_who.cpp.o
 
 src/2_who.i: src/2_who.cpp.i
@@ -573,7 +560,7 @@ src/2_who.i: src/2_who.cpp.i
 
 # target to preprocess a source file
 src/2_who.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_who.dir/build.make CMakeFiles/2_who.dir/src/2_who.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/src/2_who.cpp.i
 .PHONY : src/2_who.cpp.i
 
 src/2_who.s: src/2_who.cpp.s
@@ -581,7 +568,7 @@ src/2_who.s: src/2_who.cpp.s
 
 # target to generate assembly for a file
 src/2_who.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_who.dir/build.make CMakeFiles/2_who.dir/src/2_who.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/src/2_who.cpp.s
 .PHONY : src/2_who.cpp.s
 
 # Help Target
@@ -623,8 +610,7 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
-	@echo "... 2_who"
-	@echo "... linux_c_programming"
+	@echo "... lsl"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

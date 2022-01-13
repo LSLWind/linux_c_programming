@@ -26,8 +26,7 @@
 /usr/local/linux_c_programming/build/CMakeFiles/ContinuousCoverage.dir
 /usr/local/linux_c_programming/build/CMakeFiles/ContinuousMemCheck.dir
 /usr/local/linux_c_programming/build/CMakeFiles/ContinuousSubmit.dir
-/usr/local/linux_c_programming/build/CMakeFiles/linux_c_programming.dir
-/usr/local/linux_c_programming/build/CMakeFiles/2_who.dir
+/usr/local/linux_c_programming/build/CMakeFiles/lsl.dir
 /usr/local/linux_c_programming/build/CMakeFiles/package.dir
 /usr/local/linux_c_programming/build/CMakeFiles/package_source.dir
 /usr/local/linux_c_programming/build/CMakeFiles/test.dir
