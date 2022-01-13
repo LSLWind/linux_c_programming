@@ -4,8 +4,19 @@ project(linux_c_programming VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(linux_c_programming main.cpp)
-add_executable(2_who src/2_who.cpp)
+set(SOURCES
+main.cpp
+src/2_who.cpp
+)
+
+
+add_executable(lsl ${SOURCES})
+
+target_include_directories(lsl
+PRIVATE
+${PROJECT_SOURCE_DIR}/include)
+
+
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
