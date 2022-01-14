@@ -547,6 +547,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/2_cp.o: src/2_cp.cpp.o
+.PHONY : src/2_cp.o
+
+# target to build an object file
+src/2_cp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/src/2_cp.cpp.o
+.PHONY : src/2_cp.cpp.o
+
+src/2_cp.i: src/2_cp.cpp.i
+.PHONY : src/2_cp.i
+
+# target to preprocess a source file
+src/2_cp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/src/2_cp.cpp.i
+.PHONY : src/2_cp.cpp.i
+
+src/2_cp.s: src/2_cp.cpp.s
+.PHONY : src/2_cp.s
+
+# target to generate assembly for a file
+src/2_cp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/src/2_cp.cpp.s
+.PHONY : src/2_cp.cpp.s
+
 src/2_who.o: src/2_who.cpp.o
 .PHONY : src/2_who.o
 
@@ -614,6 +638,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/2_cp.o"
+	@echo "... src/2_cp.i"
+	@echo "... src/2_cp.s"
 	@echo "... src/2_who.o"
 	@echo "... src/2_who.i"
 	@echo "... src/2_who.s"

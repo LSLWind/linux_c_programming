@@ -837,12 +837,12 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/lsl.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/local/linux_c_programming/build/CMakeFiles --progress-num=1,2,3 "Built target lsl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/local/linux_c_programming/build/CMakeFiles --progress-num=1,2,3,4 "Built target lsl"
 .PHONY : CMakeFiles/lsl.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lsl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/local/linux_c_programming/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/local/linux_c_programming/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lsl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /usr/local/linux_c_programming/build/CMakeFiles 0
 .PHONY : CMakeFiles/lsl.dir/rule

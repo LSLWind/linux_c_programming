@@ -7,6 +7,7 @@ enable_testing()
 set(SOURCES
 main.cpp
 src/2_who.cpp
+src/2_cp.cpp
 )
 
 

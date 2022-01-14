@@ -8,5 +8,10 @@
   "directory": "/usr/local/linux_c_programming/build",
   "command": "/usr/bin/x86_64-linux-gnu-g++-7  -I/usr/local/linux_c_programming/include -g -o CMakeFiles/lsl.dir/src/2_who.cpp.o -c /usr/local/linux_c_programming/src/2_who.cpp",
   "file": "/usr/local/linux_c_programming/src/2_who.cpp"
+},
+{
+  "directory": "/usr/local/linux_c_programming/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -I/usr/local/linux_c_programming/include -g -o CMakeFiles/lsl.dir/src/2_cp.cpp.o -c /usr/local/linux_c_programming/src/2_cp.cpp",
+  "file": "/usr/local/linux_c_programming/src/2_cp.cpp"
 }
 ]

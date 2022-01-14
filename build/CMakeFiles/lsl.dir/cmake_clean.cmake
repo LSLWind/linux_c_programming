@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lsl.dir/main.cpp.o"
   "CMakeFiles/lsl.dir/main.cpp.o.d"
+  "CMakeFiles/lsl.dir/src/2_cp.cpp.o"
+  "CMakeFiles/lsl.dir/src/2_cp.cpp.o.d"
   "CMakeFiles/lsl.dir/src/2_who.cpp.o"
   "CMakeFiles/lsl.dir/src/2_who.cpp.o.d"
   "lsl"
