@@ -8,6 +8,7 @@ set(SOURCES
 main.cpp
 src/2_who.cpp
 src/2_cp.cpp
+src/3_ls.cpp
 )
 
 

@@ -13,8 +13,9 @@ void cp(const char *src, const char *dst)
         cout << "error arguments" << endl;
     }
 
-    int in_fd, out_fd, n_chars;
+    int in_fd = 0, out_fd = 0, n_chars = 0;
     char buf[BUFFER_SIZE];
+    memset(buf, 0, BUFFER_SIZE);
 
     //打开源和目的文件
     if ((in_fd = open(src, O_RDWR)) == -1)

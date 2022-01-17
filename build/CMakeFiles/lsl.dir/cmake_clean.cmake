@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lsl.dir/src/2_cp.cpp.o.d"
   "CMakeFiles/lsl.dir/src/2_who.cpp.o"
   "CMakeFiles/lsl.dir/src/2_who.cpp.o.d"
+  "CMakeFiles/lsl.dir/src/3_ls.cpp.o"
+  "CMakeFiles/lsl.dir/src/3_ls.cpp.o.d"
   "lsl"
   "lsl.pdb"
 )

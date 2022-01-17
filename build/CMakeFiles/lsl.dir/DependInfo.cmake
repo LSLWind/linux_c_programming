@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/usr/local/linux_c_programming/main.cpp" "CMakeFiles/lsl.dir/main.cpp.o" "gcc" "CMakeFiles/lsl.dir/main.cpp.o.d"
   "/usr/local/linux_c_programming/src/2_cp.cpp" "CMakeFiles/lsl.dir/src/2_cp.cpp.o" "gcc" "CMakeFiles/lsl.dir/src/2_cp.cpp.o.d"
   "/usr/local/linux_c_programming/src/2_who.cpp" "CMakeFiles/lsl.dir/src/2_who.cpp.o" "gcc" "CMakeFiles/lsl.dir/src/2_who.cpp.o.d"
+  "/usr/local/linux_c_programming/src/3_ls.cpp" "CMakeFiles/lsl.dir/src/3_ls.cpp.o" "gcc" "CMakeFiles/lsl.dir/src/3_ls.cpp.o.d"
   )
 
 # Targets to which this target links.

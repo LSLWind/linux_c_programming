@@ -595,6 +595,30 @@ src/2_who.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/src/2_who.cpp.s
 .PHONY : src/2_who.cpp.s
 
+src/3_ls.o: src/3_ls.cpp.o
+.PHONY : src/3_ls.o
+
+# target to build an object file
+src/3_ls.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/src/3_ls.cpp.o
+.PHONY : src/3_ls.cpp.o
+
+src/3_ls.i: src/3_ls.cpp.i
+.PHONY : src/3_ls.i
+
+# target to preprocess a source file
+src/3_ls.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/src/3_ls.cpp.i
+.PHONY : src/3_ls.cpp.i
+
+src/3_ls.s: src/3_ls.cpp.s
+.PHONY : src/3_ls.s
+
+# target to generate assembly for a file
+src/3_ls.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lsl.dir/build.make CMakeFiles/lsl.dir/src/3_ls.cpp.s
+.PHONY : src/3_ls.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -644,6 +668,9 @@ help:
 	@echo "... src/2_who.o"
 	@echo "... src/2_who.i"
 	@echo "... src/2_who.s"
+	@echo "... src/3_ls.o"
+	@echo "... src/3_ls.i"
+	@echo "... src/3_ls.s"
 .PHONY : help
 
 
